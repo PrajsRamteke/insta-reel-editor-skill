@@ -13,6 +13,13 @@ exercise demos) and handles stories, podcast clips, hot takes and promos too.
 
 *The same 15 s test edit compiled in all seven bundled themes (sample footage: a public-domain NASA portrait with synthetic voice).*
 
+## Example
+
+This reel was edited from a raw interview clip for **under $1** using Claude Sonnet 5.5.
+
+- **Raw video:** https://x.com/MatthewBerman/status/2092320303091429812?s=20
+- **Edited reel:** https://x.com/Prajwal96343052/status/2106710163902365930?s=20
+
 ## How it's built
 
 The skill is philosophy-first, like [LottieFiles' motion-design skill](https://github.com/lottiefiles/motion-design-skill)
