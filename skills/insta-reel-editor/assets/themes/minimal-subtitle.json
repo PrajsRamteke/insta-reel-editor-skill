@@ -1,0 +1,62 @@
+{
+  "name": "minimal-subtitle",
+  "description": "Quiet subtitle box, almost no graphics. Vlogs, cinematic b-roll, emotional stories, when the footage is the star.",
+  "personality": "premium",
+  "fonts": {
+    "display": {
+      "family": "Inter",
+      "package": "@fontsource/inter",
+      "weight": 700
+    },
+    "body": {
+      "family": "Inter",
+      "package": "@fontsource/inter",
+      "weight": 600
+    }
+  },
+  "colors": {
+    "text": "#FFFFFF",
+    "shadow": "rgba(0,0,0,0.4)",
+    "accent": "#FFFFFF",
+    "on_accent": "#000000",
+    "card": "rgba(0,0,0,0.55)",
+    "on_card": "#FFFFFF",
+    "muted": "#D0D0D0",
+    "positive": "#7EE787",
+    "negative": "#FF7B72",
+    "warning": "#F2CC60",
+    "cover_bg": "#000000"
+  },
+  "caption": {
+    "style": "minimal",
+    "size": 46,
+    "weight": 600,
+    "case": "none",
+    "highlight": "none",
+    "box": true
+  },
+  "title": {
+    "size": 84,
+    "case": "none",
+    "box": false
+  },
+  "shape": {
+    "radius": 12,
+    "pad": 28
+  },
+  "motion": {
+    "in": 0.4,
+    "out": 0.3,
+    "ease_in": "power2.out",
+    "ease_out": "power2.in",
+    "pop": "power2.out",
+    "stagger": 0.06,
+    "word_pop": 1.0
+  },
+  "ambient": {
+    "scrim_top": false,
+    "scrim_bottom": false,
+    "drift_zoom": 0.0,
+    "progress_bar": false
+  }
+}

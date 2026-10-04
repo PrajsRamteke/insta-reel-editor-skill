@@ -1,0 +1,62 @@
+{
+  "name": "bold-hype",
+  "description": "Condensed uppercase, lime highlights, fast pops. Motivation, fitness, hot takes, trends.",
+  "personality": "energetic",
+  "fonts": {
+    "display": {
+      "family": "Anton",
+      "package": "@fontsource/anton",
+      "weight": 400
+    },
+    "body": {
+      "family": "Montserrat",
+      "package": "@fontsource/montserrat",
+      "weight": 800
+    }
+  },
+  "colors": {
+    "text": "#FFFFFF",
+    "shadow": "rgba(0,0,0,0.7)",
+    "accent": "#C6FF00",
+    "on_accent": "#000000",
+    "card": "rgba(0,0,0,0.88)",
+    "on_card": "#FFFFFF",
+    "muted": "#CFCFCF",
+    "positive": "#C6FF00",
+    "negative": "#FF3B30",
+    "warning": "#FFCC00",
+    "cover_bg": "#000000"
+  },
+  "caption": {
+    "style": "pop",
+    "size": 86,
+    "weight": 800,
+    "case": "upper",
+    "highlight": "color",
+    "box": false
+  },
+  "title": {
+    "size": 132,
+    "case": "upper",
+    "box": true
+  },
+  "shape": {
+    "radius": 14,
+    "pad": 30
+  },
+  "motion": {
+    "in": 0.2,
+    "out": 0.15,
+    "ease_in": "expo.out",
+    "ease_out": "power3.in",
+    "pop": "back.out(2.2)",
+    "stagger": 0.03,
+    "word_pop": 1.12
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.0,
+    "progress_bar": true
+  }
+}

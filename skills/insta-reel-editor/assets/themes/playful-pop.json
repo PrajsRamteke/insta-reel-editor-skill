@@ -1,0 +1,63 @@
+{
+  "name": "playful-pop",
+  "description": "Rounded Poppins, white cards, pink accent, bouncy entrances. Lifestyle, food, kids, light tips.",
+  "personality": "playful",
+  "fonts": {
+    "display": {
+      "family": "Poppins",
+      "package": "@fontsource/poppins",
+      "weight": 800
+    },
+    "body": {
+      "family": "Poppins",
+      "package": "@fontsource/poppins",
+      "weight": 600
+    }
+  },
+  "colors": {
+    "text": "#FFFFFF",
+    "shadow": "rgba(40,0,30,0.45)",
+    "accent": "#FF4F9A",
+    "on_accent": "#22000F",
+    "card": "rgba(255,255,255,0.96)",
+    "on_card": "#1C1C28",
+    "muted": "#6B6B80",
+    "positive": "#22C55E",
+    "negative": "#EF4444",
+    "warning": "#F59E0B",
+    "cover_bg": "#FFF4F9"
+  },
+  "caption": {
+    "style": "karaoke",
+    "size": 64,
+    "weight": 800,
+    "case": "none",
+    "highlight": "pill",
+    "box": false,
+    "emph": "#FFC2DD"
+  },
+  "title": {
+    "size": 100,
+    "case": "none",
+    "box": true
+  },
+  "shape": {
+    "radius": 40,
+    "pad": 36
+  },
+  "motion": {
+    "in": 0.3,
+    "out": 0.2,
+    "ease_in": "back.out(1.8)",
+    "ease_out": "back.in(1.4)",
+    "pop": "back.out(2)",
+    "stagger": 0.06,
+    "word_pop": 1.1
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.0,
+    "progress_bar": false
+  }
+}

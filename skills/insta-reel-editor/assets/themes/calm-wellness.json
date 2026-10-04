@@ -1,0 +1,62 @@
+{
+  "name": "calm-wellness",
+  "description": "Soft serif titles, warm white text, sage accent, slow sine motion. Yoga, breathwork, meditation, health education.",
+  "personality": "calm",
+  "fonts": {
+    "display": {
+      "family": "Fraunces",
+      "package": "@fontsource/fraunces",
+      "weight": 600
+    },
+    "body": {
+      "family": "DM Sans",
+      "package": "@fontsource/dm-sans",
+      "weight": 600
+    }
+  },
+  "colors": {
+    "text": "#FFF8EE",
+    "shadow": "rgba(20,24,20,0.55)",
+    "accent": "#B9D7A8",
+    "on_accent": "#1E2A1C",
+    "card": "rgba(28,34,28,0.80)",
+    "on_card": "#FFF8EE",
+    "muted": "#D8D2C4",
+    "positive": "#9BD39A",
+    "negative": "#F2A08A",
+    "warning": "#F2C46D",
+    "cover_bg": "#1B211B"
+  },
+  "caption": {
+    "style": "phrase",
+    "size": 62,
+    "weight": 600,
+    "case": "none",
+    "highlight": "color",
+    "box": false
+  },
+  "title": {
+    "size": 96,
+    "case": "none",
+    "box": false
+  },
+  "shape": {
+    "radius": 36,
+    "pad": 40
+  },
+  "motion": {
+    "in": 0.6,
+    "out": 0.45,
+    "ease_in": "sine.out",
+    "ease_out": "sine.in",
+    "pop": "power2.out",
+    "stagger": 0.08,
+    "word_pop": 1.0
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.03,
+    "progress_bar": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "tech-mono",
+  "description": "Grotesk + mono, neon-green accent on near-black cards, snappy. Coding, AI, product demos, startup tips.",
+  "personality": "clean",
+  "fonts": {
+    "display": {
+      "family": "Space Grotesk",
+      "package": "@fontsource/space-grotesk",
+      "weight": 700
+    },
+    "body": {
+      "family": "JetBrains Mono",
+      "package": "@fontsource/jetbrains-mono",
+      "weight": 700
+    }
+  },
+  "colors": {
+    "text": "#FFFFFF",
+    "shadow": "rgba(0,0,0,0.6)",
+    "accent": "#00E599",
+    "on_accent": "#04140D",
+    "card": "rgba(8,12,16,0.90)",
+    "on_card": "#E6FFF5",
+    "muted": "#8AA39A",
+    "positive": "#00E599",
+    "negative": "#FF5C7A",
+    "warning": "#FFC857",
+    "cover_bg": "#05080B"
+  },
+  "caption": {
+    "style": "karaoke",
+    "size": 60,
+    "weight": 700,
+    "case": "none",
+    "highlight": "pill",
+    "box": false
+  },
+  "title": {
+    "size": 100,
+    "case": "none",
+    "box": false
+  },
+  "shape": {
+    "radius": 18,
+    "pad": 34
+  },
+  "motion": {
+    "in": 0.28,
+    "out": 0.2,
+    "ease_in": "power4.out",
+    "ease_out": "power2.in",
+    "pop": "back.out(1.3)",
+    "stagger": 0.04,
+    "word_pop": 1.06
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.0,
+    "progress_bar": true
+  }
+}

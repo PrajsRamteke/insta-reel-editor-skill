@@ -1,0 +1,62 @@
+{
+  "name": "clean-educator",
+  "description": "Default. Crisp sans, white captions with a yellow active-word pill, dark cards. Explainers, tips, tutorials.",
+  "personality": "clean",
+  "fonts": {
+    "display": {
+      "family": "Inter",
+      "package": "@fontsource/inter",
+      "weight": 800
+    },
+    "body": {
+      "family": "Inter",
+      "package": "@fontsource/inter",
+      "weight": 600
+    }
+  },
+  "colors": {
+    "text": "#FFFFFF",
+    "shadow": "rgba(0,0,0,0.55)",
+    "accent": "#FFD60A",
+    "on_accent": "#111111",
+    "card": "rgba(16,16,20,0.86)",
+    "on_card": "#FFFFFF",
+    "muted": "#B9B9C3",
+    "positive": "#30D158",
+    "negative": "#FF453A",
+    "warning": "#FF9F0A",
+    "cover_bg": "#0E0E12"
+  },
+  "caption": {
+    "style": "karaoke",
+    "size": 66,
+    "weight": 800,
+    "case": "none",
+    "highlight": "pill",
+    "box": false
+  },
+  "title": {
+    "size": 104,
+    "case": "none",
+    "box": false
+  },
+  "shape": {
+    "radius": 28,
+    "pad": 36
+  },
+  "motion": {
+    "in": 0.35,
+    "out": 0.25,
+    "ease_in": "power3.out",
+    "ease_out": "power2.in",
+    "pop": "back.out(1.4)",
+    "stagger": 0.05,
+    "word_pop": 1.08
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.02,
+    "progress_bar": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "premium-editorial",
+  "description": "Serif headlines, champagne accent, no bounce, generous holds. Finance, luxury, founders, interviews.",
+  "personality": "premium",
+  "fonts": {
+    "display": {
+      "family": "Playfair Display",
+      "package": "@fontsource/playfair-display",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter",
+      "package": "@fontsource/inter",
+      "weight": 600
+    }
+  },
+  "colors": {
+    "text": "#F5F1E8",
+    "shadow": "rgba(0,0,0,0.5)",
+    "accent": "#E6D3A8",
+    "on_accent": "#1A1712",
+    "card": "rgba(12,12,12,0.72)",
+    "on_card": "#F5F1E8",
+    "muted": "#BDB6A6",
+    "positive": "#BFD8B8",
+    "negative": "#E7A9A0",
+    "warning": "#E9CF96",
+    "cover_bg": "#0C0B0A"
+  },
+  "caption": {
+    "style": "phrase",
+    "size": 58,
+    "weight": 600,
+    "case": "none",
+    "highlight": "none",
+    "box": false
+  },
+  "title": {
+    "size": 92,
+    "case": "none",
+    "box": false
+  },
+  "shape": {
+    "radius": 6,
+    "pad": 40
+  },
+  "motion": {
+    "in": 0.55,
+    "out": 0.35,
+    "ease_in": "power2.out",
+    "ease_out": "power2.in",
+    "pop": "power2.out",
+    "stagger": 0.07,
+    "word_pop": 1.0
+  },
+  "ambient": {
+    "scrim_top": true,
+    "scrim_bottom": true,
+    "drift_zoom": 0.015,
+    "progress_bar": false
+  }
+}
