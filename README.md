@@ -33,8 +33,8 @@ It combines that with the most reliable engineering patterns from other video sk
 ```bash
 # Claude Code (personal skill)
 ln -s "$(pwd)/skills/insta-reel-editor" ~/.claude/skills/insta-reel-editor
-# or, once this folder is a GitHub repo
-npx skills add <you>/insta-reel-editor
+# or install from GitHub
+npx skills add PrajsRamteke/insta-reel-editor-skill
 ```
 
 Requirements: Python 3.9+ and ffmpeg/ffprobe. Node 22+ (HyperFrames renders the motion graphics; fonts and
@@ -109,5 +109,5 @@ offers to update them when you state a standing preference.
 ## Licenses of what it uses
 
 Fonts: Fontsource (SIL OFL). GSAP: free under GreenSock's standard license. HyperFrames: Apache-2.0.
-Remotion: company license above 3 employees (only if you choose that engine). Add your own LICENSE file
-before publishing this repo.
+Remotion: company license above 3 employees (only if you choose that engine). Source:
+[PrajsRamteke/insta-reel-editor-skill](https://github.com/PrajsRamteke/insta-reel-editor-skill).
